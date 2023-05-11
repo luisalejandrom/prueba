@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root{
+	--color-titulos: #3c3838;
+	--color-subtitulos-general: #888585;
+	--color-numeros: #e6e8eb;
+	--color-azul: #19adf4;
+	--fondo-gris: #f3f3f3;
+	--fondo-footer: #383737;
+	--color-footer: #fff;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.header{
+	min-height: 50vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(3,7,25,0.2),rgba(3,7,25,0.2)),url("../img/header_bg.jpg");
+	position: relative;
+	background-position: center;
+	background-size: cover;
+}
+
+.text-box{
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.text-box h1{
+	font-size: 55px;
+	font-weight: 700;
+	color: var(--color-footer);
+	font-family: 'Oswald', sans-serif;
+}
+
+.text-box a{
+	font-size: 20px;
+	color: var(--color-subtitulos-general);
+}
+
+.btn-home{
+	display: inline-block;
+	text-decoration: none;
+	color: var(--color-subtitulos-general)!important;
+	position: relative;
+	outline: none;
+}
+
+.btn-about{
+	color: #fff !important;
+}
+
+.container h5{
+	font-size: 14px;
+	text-align: center;
+	margin-top: 70px;
+	color: var(--color-subtitulos-general);
+	font-weight: 400;
+}
+
+.container h2{
+	font-size: 55px;
+	text-align: center;
+	margin-top: 40px;
+	color: var(color-titulos);
+	font-family: 'Oswald', sans-serif;
+}
+
+.container h3{
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	color: var(--color-numeros);
+}
+
+.container h4{
+	font-size: 16px;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.btn-more{
+	text-align: center;
+	margin-top: 70px;
+	border-radius: 30 30 30 30;
+	background-color: var(--color-azul);
+	font-family: 'Oswald', sans-serif;
+	width: 200px;
+	border-radius: 20px;
+}
+
+.btn-azul{
+	color: #fff;
+}
